@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
 
 /*
 	Alpha by HTML5 UP
@@ -205,7 +206,8 @@ input,
 select,
 textarea {
 	color: #777;
-	font-family: "Limelight", sans-serif;
+	/* font-family: "Limelight", sans-serif; */
+	font-family: "Rubik Scribble", system-ui;
 	font-size: 16pt;
 	font-weight: 400;
 	font-style: normal;
@@ -266,7 +268,7 @@ h6 a {
 }
 
 h2 {
-	font-size: 2.25em;
+	font-size: 3em;
 	line-height: 1.5em;
 	letter-spacing: -0.035em;
 }
@@ -275,6 +277,7 @@ h3 {
 	font-size: 1.75em;
 	line-height: 1.5em;
 	letter-spacing: -0.025em;
+	font-family: "Limelight", sans-serif;
 }
 
 h4 {
@@ -2928,6 +2931,7 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 input[type="button"].alt,
 .button.alt {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: transparent;
 	box-shadow: inset 0 0 0 2px #e5e5e5;
 	color: #777;
